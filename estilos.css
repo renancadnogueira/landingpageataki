@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Agdasima', sans-serif;
+    background-color: rgba(136, 171, 224, 0.356);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo__ataki {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    align-items: center;
+    mix-blend-mode: multiply;
+}
+
+.titulo__principal {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 81, 255, 0.952);
+}
+
+.paragrafo__conteudo {
+    font-family: 'Agdasima', sans-serif;;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.nome__conteudo:hover{
+    background-color: rgba(52, 121, 250, 0.788);
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.apresentacao__links__subtitulo {
+    margin: 5px;
+    padding: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgba(0, 81, 255, 0.952);
+    font-size: 32px;
+}
+
+.apresentacao__links__navegacao {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(11, 11, 167, 0.733);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    width: 40%;
+    border: 2px solid rgba(52, 121, 250, 0.788);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 0px 10px 0;
+}
+
+.apresentacao__links__navegacao:hover {
+    background-color: rgb(56, 89, 236);
+}
